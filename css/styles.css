@@ -51,28 +51,44 @@ body {
     margin: 0 auto;
 }
 
-.proj1 {
+.proj {
     font-size: 4em;
     font-weight: bold;
     color: purple;
-    background-color: #eee;
-    border-radius: 50%;
+    background-color: rgba(238, 238, 238, 0.7);
+    border-radius: 70%;
     border: 2px dashed black;
+    cursor: pointer;
 }
 
 .card-text {
     font: italic 1.5em/1.5em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+.projImg {
+    opacity: 0.4;
+    cursor: pointer;
+}
+
+.projImg:hover {
+    opacity: 1;
+}
+
+.carousel-caption {
+    /* Prevent pointer events */
+    pointer-events: none;
 }
 
 @media screen and (max-width: 530px) {
     .me1 {font-size: 1.6em;}
     .me2 {font-size: 1em;}
     .me3 {font-size: 0.8em;}
+    .card-text {font-size: 1.3em}
 }
 
 @media screen and (max-width: 400px) {
     .me1 {font-size: 1.3em;}
     .me2 {font-size: 0.9em;}
     .me3 {font-size: 0.7em;}
+    .card-text{font-size: 1em}
 }
