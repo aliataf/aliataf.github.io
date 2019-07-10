@@ -79,6 +79,12 @@ body {
     pointer-events: none;
 }
 
+.footer {
+    background-color: #aaC4E9;
+    margin: 0 auto;
+    padding: 20px 0px;
+}
+
 @media screen and (max-width: 530px) {
     .me1 {font-size: 1.6em;}
     .me2 {font-size: 1em;}
