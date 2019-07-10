@@ -6,7 +6,73 @@
     margin: 0;
 }
 
+body {
+    min-width: 350px;
+}
+
 #logo {
     font: bold 2em/1.5em 'Courier New', Courier, monospace;
     color: antiquewhite;
+}
+
+.jumbotron {
+    padding: 90px;
+    margin-top: 2.5em;
+}
+
+.me1 {
+    font: bold 2.7em cursive, Courier, sans-serif;
+    color: firebrick;
+}
+
+.me2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 1em;
+    color: darkblue;
+}
+
+.me3 {
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 3em;
+    color: grey;
+}
+
+.row-spec {
+    margin: 0 auto;
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 300px;
+}
+
+#mycarousel {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.proj1 {
+    font-size: 4em;
+    font-weight: bold;
+    color: purple;
+    background-color: #eee;
+    border-radius: 50%;
+    border: 2px dashed black;
+}
+
+.card-text {
+    font: italic 1.5em/1.5em 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+@media screen and (max-width: 530px) {
+    .me1 {font-size: 1.6em;}
+    .me2 {font-size: 1em;}
+    .me3 {font-size: 0.8em;}
+}
+
+@media screen and (max-width: 400px) {
+    .me1 {font-size: 1.3em;}
+    .me2 {font-size: 0.9em;}
+    .me3 {font-size: 0.7em;}
 }
