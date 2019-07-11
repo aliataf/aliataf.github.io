@@ -20,6 +20,11 @@ body {
     margin-top: 2.5em;
 }
 
+.myImg {
+    width: 90%;
+    height: 90%;
+}
+
 .me1 {
     font: bold 2.7em cursive, Courier, sans-serif;
     color: firebrick;
