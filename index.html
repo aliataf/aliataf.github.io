@@ -16,35 +16,6 @@
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
-        <a id="logo" class="navbar-brand" href="#">&lt;Ali Ataf /&gt;</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#aboutMe"><i class="fas fa-info"></i> About Me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#myProjects"><i class="fas fa-briefcase"></i> My Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact"><i class="fas fa-address-card"></i> Contact</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-warning my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>
-
     <header class="jumbotron">
         <div class="row">
             <div class="col-12 col-lg-8">
@@ -58,30 +29,57 @@
                 </a>
             </div>
         </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-info fixed-top">
+            <a id="logo" class="navbar-brand" href="#">&lt;Ali Ataf /&gt;</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#aboutMe"><i class="fas fa-info"></i> About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#myProjects"><i class="fas fa-briefcase"></i> My Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"><i class="fas fa-address-card"></i> Contact</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-warning my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
     </header>
 
     <main class="container">
         <section id="aboutMe">
-                <div class="card">
-                    <div class="card-header">
-                        <h1 class="text-center">About Me</h1>
+            <div class="card">
+                <div class="card-header">
+                    <h1 class="text-center">About Me</h1>
+                </div>
+                <div class="card-body row">
+                    <div class="col-12 col-lg-4 text-center">
+                        <h4 class="card-title">Who am I?</h4>
+                        <img class="img myImg" src="img/personal.jpg" alt="Personal photo">
                     </div>
-                    <div class="card-body row">
-                        <div class="col-12 col-lg-4 text-center">
-                            <h4 class="card-title">Who am I?</h4>
-                            <img class="img myImg" src="img/personal.jpg" alt="Personal photo">
-                        </div>
-                        <div class="col-12 col-lg-8 mt-3">
-                            <p class="card-text">Self-motivated IT student with deep knowledge and proficiency in JavaScript, HTML, CSS, Bootstrap 4, SQL.
-                            <p class="card-text">Bringing 1+ years of learning and experiencing Front End world and continuing to achieve as much skills as I can through online courses and self-created projects</p>
-                            <p class="card-text">Started my carrer two years ago by learning the principles of web development and continued to learn every thing related to this field.</p>
-                            <p class="card-text">Now adays I have bringed enough experience to build the front of a web app.</p>
-                        </div>
-                    </div>
-                    <div class="card-footer text-muted">
-                        Hope you took a closer look at me
+                    <div class="col-12 col-lg-8 mt-3">
+                        <p class="card-text">Self-motivated IT student with deep knowledge and proficiency in JavaScript, HTML, CSS, Bootstrap 4, SQL.
+                        <p class="card-text">Bringing 1+ years of learning and experiencing Front End world and continuing to achieve as much skills as I can through online courses and self-created projects</p>
+                        <p class="card-text">Started my carrer two years ago by learning the principles of web development and continued to learn every thing related to this field.</p>
+                        <p class="card-text">Now adays I have bringed enough experience to build the front of a web app.</p>
                     </div>
                 </div>
+                <div class="card-footer text-muted">
+                    Hope you took a closer look at me
+                </div>
+            </div>
         </section>
 
         <section id="myProjects" class="row row-spec">
@@ -124,8 +122,10 @@
                 <div class="col-12 col-md-9">
                     <form method="post">
                         <div class="form-group row">
-                            <h4><label for="message" class="col-md-4 col-form-label">Send me a message</label></h4>
-                            <div class="col-md-8">
+                            <div class="col-4">
+                                <h4><label for="message" class="col-form-label">Send me a message</label></h4>
+                            </div>
+                            <div class="col-8">
                                 <textarea id="message" name="message" class="form-control" rows="12"></textarea>
                             </div>
                         </div>
