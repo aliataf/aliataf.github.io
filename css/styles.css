@@ -74,6 +74,7 @@ body {
 .projImg {
     opacity: 0.4;
     cursor: pointer;
+    width: 100%;
 }
 
 .projImg:hover {
@@ -85,10 +86,22 @@ body {
     pointer-events: none;
 }
 
+.carousel-item {
+    /* Prevent carousel from resizing */
+    height: 443px;
+    overflow: hidden;
+    width: 100%;
+}
+
 .footer {
     background-color: #aaC4E9;
     margin: 0 auto;
     padding: 20px 0px;
+}
+
+textarea {
+    /* Prevent textarea from resizing */
+    resize: none;
 }
 
 @media screen and (max-width: 530px) {
