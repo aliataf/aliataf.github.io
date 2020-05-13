@@ -15,7 +15,6 @@ body {
     overflow-x: hidden; 
 }
 
-
 #logo {
     font: bold 2em/1.5em 'Courier New', Courier, monospace;
     color: antiquewhite;
@@ -65,6 +64,7 @@ body {
 #mycarousel {
     text-align: center;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .proj {
@@ -100,8 +100,12 @@ body {
     /* Prevent carousel from resizing */
     height: 443px;
     overflow: hidden;
-    width: 100%;
-    margin: 0 auto;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 .footer {
