@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alilo-Sy/portfolio.git"
+    "url": "git+https://github.com/aliataf/aliataf.github.io"
   },
   "author": "Alilo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Alilo-Sy/portfolio/issues"
+    "url": "https://github.com/aliataf/aliataf.github.io/issues"
   },
-  "homepage": "https://github.com/Alilo-Sy/portfolio#readme",
+  "homepage": "https://aliataf.github.io",
   "dependencies": {
     "bootstrap": "^4.5.0",
     "jquery": "^3.5.1",
