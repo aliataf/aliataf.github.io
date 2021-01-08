@@ -4,9 +4,7 @@
   "description": "My portfolio",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run lite",
-    "lite": "lite-server"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -18,13 +16,6 @@
     "url": "https://github.com/aliataf/aliataf.github.io/issues"
   },
   "homepage": "https://aliataf.github.io",
-  "dependencies": {
-    "bootstrap": "^4.5.0",
-    "jquery": "^3.5.1",
-    "popper.js": "^1.16.1"
-  },
-  "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.13.0",
-    "lite-server": "^2.6.1"
-  }
+  "dependencies": {},
+  "devDependencies": {}
 }
